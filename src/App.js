@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Greet from './components/Home'
 
 function App() {
   return (
     <div className="App">
-      <h1>Helnijoi</h1>
+      <Greet/>
     </div>
   );
 }
